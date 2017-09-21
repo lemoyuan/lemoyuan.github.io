@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	
+ 	
+	<style>
+		body{background-color: #666;height: 400px;}
+		*{padding:0;margin: 0;}
+		div{height: 30px;width: 30px;background-color: #f00;position:absolute;left: 0;top: 0; }
+
+	</style>
+	<script type="text/javascript" src="js.js"></script>
+
+</head>
+<body>
+
+	
+
+</body>
+<script >
+var body=document.getElementsByTagName('body')[0];
+var time=null;
+var speed=1;
+setInterval(function(){
+	var adiv=document.createElement("div");
+	var x=Math.random()*250+"px";
+	var y=Math.random()*600+"px";
+	var color="#"+Math.floor(Math.random()*999999);
+	body.appendChild(adiv);
+	// adiv.setAttribute("style.left",x);
+	adiv.style.left=x;
+	adiv.style.top=y;
+	adiv.style.backgroundColor=color;
+	
+	adiv.time=setInterval(function(){
+	// var adiv=document.getElementsByTagName("div");
+		adiv.style.left=adiv.offsetLeft+speed+"px";
+		
+	},10)
+
+	
+	
+	
+},2000)
+setInterval(function(){
+	var arr=document.getElementsByTagName("div");
+	if(arr[0].offsetLeft>1200){
+		body.removeChild(arr[0]);
+		clearInterval(adiv.time);
+	}
+},100)
+
+
+
+
+
+
+
+
+
+</script>
+</html>
