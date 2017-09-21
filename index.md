@@ -1,6 +1,7 @@
 ## Welcome to AYuan's pages
 
 You can use the [editor on GitHub](https://github.com/lemoyuan/lemoyuan.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+You can click the [my project](https://github.com/lemoyuan/lemoyuan.github.io/blob/master/弹幕.html) to understand me.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
