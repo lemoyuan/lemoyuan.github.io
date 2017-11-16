@@ -1,317 +1,260 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>MY Homepage | AYuan</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font_ehd544soeeoskyb9/iconfont.css">
-    <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+	<meta charset="UTF-8">
+	<title>Welcome to my personal website</title>
+	<style>
+		a{color: #fff;text-decoration: none;}
+		*{padding: 0;margin: 0;}
+		body{background-color: #2D2D2D;color: #fff;}
+		.header{text-align: center;color: #fff;font-size: 23px;margin-top:80px;}
+.cont{text-align: center;}
+.list-main{margin: 60px auto 0;width: 600px;height: 50px;}
+.list-main li{float: left;list-style: none;width: 150px;transition: all 2s ease;}
+.list-main li:hover{transform: translate(0,-10px);}
+.list-main li:hover a{color: #08d695;}
+.list-main li .iconfont{font-size: 25px;}
+
+.social {
+    margin: 60px auto 0;
+ text-align: center;width: 256px;
+}
+.social li {
+    float: left;
+    margin: 0 0 0 22px;list-style: none;
+}
+.social li a {
+    display: table-cell;vertical-align: middle;
+    width: 32px;
+    height: 32px;text-align: center;
+    /*text-indent: -9999px;*/
+    background-color: #fff;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+.social li a i{
+    color: #2D2D2D;font-size: 18px;
+}
+.social li:nth-child(2) a i{
+    font-size: 21px;
+}
+.social li:nth-child(3) a i{
+    font-size: 26px;
+}
+.social li:nth-child(4) a i{
+    font-size: 23px;
+}
+.social li a.social-facebook {
+    background-position: 0 0;
+}
+.social li a:hover i{color: #fff;}
+.social li a.social-facebook:hover {
+    background-color: #3b5998;
+}
+.social li a.social-facebook:active {
+    background-color: #355089;
+}
+.social li a.social-twitter {
+    background-position: -50px 0;
+}
+.social li a.social-twitter:hover {
+    background-color: #55acee;
+}
+.social li a.social-twitter:active {
+    background-color: #4c9ad6;
+}
+.social li a.social-googleplus {
+    background-position: 0 -50px;
+}
+.social li a.social-googleplus:hover {
+    background-color: #dd4b39;
+}
+.social li a.social-googleplus:active {
+    background-color: #c64333;
+}
+.social li a.social-github:hover {
+    background-color: #dd0ebb;
+}
+.social li a.social-github:active {
+    background-color: #dd0ebb;
+}
+.contact{position:fixed;bottom: 30px;left: 50px;font-size: 13px;color: rgb(209, 189, 189)}
+#proj-hind{display: none; width: 200px;margin-left: -169px; height:154px;position: absolute;background-color: rgba(44, 82, 82, 0.9);top: 218px;left: 50%;border-radius: 5px;}
+#webs-hind{display: none; width: 200px;margin-left:128px; height:154px;position: absolute;background-color: rgba(44, 82, 82, 0.9);top: 218px;left: 50%;border-radius: 5px;}
+
+#proj-hind a,#webs-hind a{height: 20px;margin: 10px 10px ;padding: 3px 5px; border-radius: 5px;background-color: rgb(109, 105, 105);color: #fff;display: inline-block;}
+
+#proj-hind a:hover,#webs-hind a:hover{color:#08d695 }
+#qq-hind {margin-left: -320px;position: absolute;top: 263px;left: 50%;width: 200px;display: none;border-radius: 5px;}
+#qq:hover #qq-hind{display: block;}
+</style>
+	<link rel="stylesheet" href="font_vfr3j0rpy4btvs4i/iconfont.css">
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
-<body class="no-js">
+<body>
+	<!-- 背景div -->
+	<div id="mydiv" style="height:600px;position:relative;">
+		<div class="cont">
+			<p class="header">
+				Hello! Welcome to AYuan's website. <br>
+				And some words for you and me:<br>
+				<span id="motto">No matter how you live, don't regret it!</span>
+				
+			</p>
+			<ul class="list-main">
+				<li>
+					<a href="">
+							<i class="iconfont icon-home"></i><br>
+							<span>主页</span>
+					</a>		 
+					 
 
-    <section class="main">
-        <header>
-            <div class="wrap">
-                <div class="logo">
-                    <a href="#">
-                        <img src="upload/logo.png" width="341" height="68" alt="MY Journey | SIMPLE WAY to do it today">
-                    </a>
-                </div><!-- logo -->
-                <div class="social">
-                    <ul class="clearfix">
-                        <li><a class="social-facebook" href="#" title="qq">
-                        <i class="iconfont icon-qq"></i></a></li>
-                        <li><a class="social-twitter" href="https://wx.qq.com/" title="wechat"><i class="iconfont icon-wechat-copy"></i></a></li>
-                        <li><a class="social-googleplus" href="http://www.weibo.com/5327319091/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="weibo"><i class="iconfont icon-weibo"></i></a></li>
-                    </ul>
-                </div><!-- social -->
-                <div class="separator"></div>
-            </div><!-- wrap -->
-        </header>
-        <section class="caption">
-            <div class="wrap">
-                <h1>Hello! You are looking at MyHomepage(AYuan).<br>And a word for you and me:<br>No matter how you live, don't regret it!</h1>
-            </div><!-- wrap -->
-        </section><!-- caption -->
-        <section class="slider">
-            <div class="wrap">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="upload/QQ图片20170922121219.jpg" width="940" height="360px" alt="">
-                        </div><!-- swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="upload/QQ图片20170922121345.jpg" width="940" height="360px" alt="">
-                        </div><!-- swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="upload/QQ图片20170922121336.jpg" width="940" height="360px" alt="">
-                        </div><!-- swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="upload/QQ图片20170922121317.jpg" width="940" height="360px" alt="">
-                        </div><!-- swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="upload/QQ图片20170922124649.jpg" width="940" height="360px" alt="">
-                        </div><!-- swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="upload/Cache_4241c9d90e8c71b..jpg" width="940" height="360px" alt="">
-                        </div><!-- swiper-slide -->
-                    </div>
-                    <div class="swiper-pagination-wrapper">
-                        <div class="swiper-pagination"></div>
-                    </div><!-- /swiper-pagination-wrapper -->
-                </div>
-            </div><!-- wrap -->
-        </section><!-- slider -->
-        <section class="features">
-            <div class="wrap">
-                <div class="features-columns clearfix">
-                    <div class="features-column">
-                        <span class="ico-bulb"></span>
-                        <h3>项目列表</h3>
-                        <p>Clean &amp; Beautiful Design, HTML5 &amp; CSS3 valid code provide good readability and smooth performance.</p>
-                    </div><!-- features-column -->
-                    <div class="features-column">
-                        <span class="ico-rocket"></span>
-                        <h3>我的爱好</h3>
-                        <p>Responsive designed and Retina Ready. MyJourney will look perfect on any device you can imagine.</p>
-                    </div><!-- features-column -->
-                    <div class="features-column">
-                        <span class="ico-flag"></span>
-                        <h3>生活记录</h3>
-                        <p>Optimized and valid code using the latest  technologies allows to make changes in the page structure of the template.</p>
-                    </div><!-- features-column -->
-                </div><!-- features-columns -->
-                <div class="separator"></div>
-            </div><!-- wrap -->
-        </section><!-- features -->
-        <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
-        <section class="textblock">
-            <div class="wrap">
-                <img src="upload/image.jpg" width="320" height="280" alt="">
-                <div class="text-column">
-                    <h2>So simple, so beautiful</h2>
-                    <p>MyJourney HTML template is a landing page with clean structure and beautiful minimalistic design. It can be useful in so many ways, 
-                     including the most obvious, whis is to Tell a story.</p>
-                    <p>Optimized and valid code using the latest HTML5 and CSS3 technologies allows to make changes in the page structure of the template as it is requared by your needs.</p>
-                </div><!-- text-column -->
-                <div class="separator"></div>
-            </div><!-- wrap -->
-        </section><!-- textblock -->
-        <section class="textblock textblock-last">
-            <div class="wrap">
-                <img src="upload/image2.jpg" width="320" height="280" class="align-right" alt="">
-                <div class="text-column">
-                    <h2>Right here, right now</h2>
-                    <p>MyJourney is all about being useful when you need nice and simple way to tell the people about what you’ve seen and felt about something important. Something that really means a lot.</p>
-                    <p class="big dark"><a class="button" href="#">More information</a> &nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;<a href="#">get&nbsp;it&nbsp;right&nbsp;now!</a>&nbsp;&nbsp;</p>
-                </div><!-- text-column -->
-            </div><!-- wrap -->
-        </section><!-- textblock -->
-        <section class="twitter" style="position: relative;">
-             <canvas id="canvas" height="450" width="1280"></canvas>
-            <div class="wrap" style="position: absolute;top: 10%;left: 0;bottom: 0;right: 0;">
-                <div class="twitter-ico"></div>
-                <div class="tab clearfix">
-                    <div class="box visible">
-                        <div class="twitter-post-wrapper">
-                            <div class="twitter-post-inside">
-                                <div class="twitter-post">First of many freebies from #PixelBuddha on @dribbble <a href="#">https://dribbble.com/shots/plates</a> Follow us to be in touch!</div>
-                                <p><a href="#">@PixelBuddha</a> long ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="twitter-post-wrapper">
-                            <div class="twitter-post-inside">
-                                <div class="twitter-post">First of many freebies from #PixelBuddha on @dribbble <a href="#">https://dribbble.com/shots/plates</a> Follow us to be in touch!</div>
-                                <p><a href="#">@PixelBuddha</a> long ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="twitter-post-wrapper">
-                            <div class="twitter-post-inside">
-                                <div class="twitter-post">First of many freebies from #PixelBuddha on @dribbble <a href="#">https://dribbble.com/shots/plates</a> Follow us to be in touch!</div>
-                                <p><a href="#">@PixelBuddha</a> long ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tabs-wrapper">
-                        <ul class="tabs">
-                            <li class="active"></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="newsletter">
-            <div class="wrap">
-                <div class="newsletter-title">Subscribe to our newsletter</div>
-                <div class="newsletter-wrapper">
-                    <div class="newsletter-form clearfix">
-                        <form>
-                            <input type="email" placeholder="Your leave words">
-                            <input type="button" value="留言">
-                        </form>
-                    </div><!-- newsletter-form -->
-                </div><!-- newsletter-wrapper -->
-                <p class="newsletter-note">More Templates <a href="http://www.cssmoban.com/" target="_blank" title="">Thanks your coming</a> - And wish <a href="http://www.cssmoban.com/" title="" target="_blank">a good day</a>.</p>
-            </div><!-- wrap -->
-        </section><!-- newsletter -->
-    </section><!-- main -->
-    <footer>
-        <div class="wrap">
-            <div class="social">
-               
-                <ul class="clearfix">
-                    <li><a class="social-facebook" href="#" title="qq">
-                    <i class="iconfont icon-qq"></i></a></li>
-                    <li><a class="social-twitter" href="https://wx.qq.com/" title="wechat"><i class="iconfont icon-wechat-copy"></i></a></li>
-                    <li><a class="social-googleplus" href="http://www.weibo.com/5327319091/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="weibo"><i class="iconfont icon-weibo"></i></a></li>
-                </ul>
-            </div><!-- social -->
-        </div><!-- wrap -->
-        <div class="footer-image"></div>
-    </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/library.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/retina.js"></script>
-    
+				</li>
+				<li>
+						<a href="" id="project">
+								<i class="iconfont icon-xiangmu"></i><br>
+								<span>项目</span>
+						</a>
+
+				
+				</li>
+				<li>
+						<a href="">
+								<i class="iconfont icon-zhishi"></i><br>
+								<span>感悟</span>
+							</a>
+					
+				</li>
+				<li>
+						<a href="" id="website">
+								<i class="iconfont icon-wangzhi"></i><br>
+								<span>站点</span>
+
+							</a>
+					
+				</li>
+			</ul>
+			<div class="social">
+					<ul class="clearfix">
+							<li id="qq">
+								<a class="social-facebook" href="#" title="qq">
+									<i class="iconfont icon-qq"></i>
+								</a>
+								<img id="qq-hind" src="./img/qrcode_1510809424154.jpg" alt="">
+									
+							</li>
+							
+							<li><a class="social-twitter" href="https://wx.qq.com/" title="wechat"><i class="iconfont icon-wechat-copy"></i></a></li>
+							<li><a class="social-googleplus" href="http://www.weibo.com/5327319091/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="weibo"><i class="iconfont icon-weibo"></i></a></li>
+							<li><a class="social-github" href="https://github.com/lemoyuan" title="github"><i class="iconfont icon-github"></i></a></li>
+						</ul>
+			</div>
+			<div class="contact">
+				<p>
+					联系作者请：      <i style="width:10px;display:inline-block"></i>     邮箱 : lin_lemo@163.com. <i style="width:10px;display:inline-block"></i>          手机 : 17858805254.
+				</p>
+			</div>
+			<div id="proj-hind">
+				<a href="http://www.lemolin.info/yunba/" target="_blank" >云巴</a>
+				<a href="">数字尾巴</a>
+				<a href="">prome</a>
+				<a href="">新闻页</a>
+				<a href="">民生银行</a>
+			</div>
+			<div id="webs-hind">
+				<a href="https://juejin.im/" target="_blank">掘金</a>
+				<a href="http://www.imooc.com/" target="_blank">慕课</a>
+				<a href="https://github.com/" target="_blank">Github</a>
+				<a href="http://www.ruanyifeng.com/blog/" target="_blank">阮一峰</a>
+				<a href="http://www.w3school.com.cn/" target="_blank">W3c</a>
+				<a href="http://www.jq22.com/" target="_blank">插件库</a>
+			</div>
+			
+		</div>
+
+
+		
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+		    //配置
+		    var config = {
+		        vx: 4,	//小球x轴速度,正为右，负为左
+		        vy: 4,	//小球y轴速度
+		        height: 2,	//小球高宽，其实为正方形，所以不宜太大
+		        width: 2,
+		        count: 150,		//点个数
+		        color: "121, 162, 185", 	//点颜色
+		        stroke: "130,255,255", 		//线条颜色
+		        dist: 5000, 	//点吸附距离
+		        e_dist: 20000, 	//鼠标吸附加速距离
+		        max_conn: 10 	//点到点最大连接数
+		    }
+
+		    //调用
+		    CanvasParticle(config);
+		}
+		var Proj=document.getElementById("project");
+		var ProjH=document.getElementById("proj-hind");
+		var Webs=document.getElementById("website");
+		var WebsH=document.getElementById("webs-hind");
+		var qq=document.getElementById("qq");
+		var Motto=document.getElementById("motto");
+		qq.onclick=function(){
+			qqCode.style.display="block";
+		}
+		Proj.onclick=function(ev){
+			
+			var Oevent=ev||window.event;
+			if( Oevent.stopPropagation ){
+			Oevent.stopPropagation();
+			}else{
+			Oevent.cancelBubble = true;
+			};
+			if(Oevent.preventDefault){
+				Oevent.preventDefault();
+			}else{
+				Oevent.returnValue=false;
+			}
+			WebsH.style.display="none";
+			ProjH.style.display="block";
+			document.onclick=function(){
+				ProjH.style.display="none";
+	
+			}
+		}
+		Webs.onclick=function(ev){
+			
+			var Oevent=ev||window.event;
+			if( Oevent.stopPropagation ){
+			Oevent.stopPropagation();
+			}else{
+			Oevent.cancelBubble = true;
+			};
+			if(Oevent.preventDefault){
+				Oevent.preventDefault();
+			}else{
+				Oevent.returnValue=false;
+			}
+			ProjH.style.display="none";
+			WebsH.style.display="block";
+			document.onclick=function(){
+				WebsH.style.display="none";
+	
+			}
+		}
+		var ArrMottos=["A strong man will struggle with the storms of fate. ","Living without an aim is like sailing without a compass.","Don't try so hard, the best things come when you least expect them to. ","Truth needs no colour; beauty , no pencil. ","Live beautifully, dream passionately, love completely.","No need to have a reason to love you. Anything can be a reason not to love you.","Towering genius disdains a beaten path. It seeks regions hitherto unexplored.","A people which is able to say everything becomes able to do everything.","The good seaman is known in bad weather."]
+		setInterval(function(){
+			var x=Math.floor(Math.random()*ArrMottos.length) ;
+			Motto.innerHTML=ArrMottos[x];
+		},6000)
+	
+	</script>
+	<script type="text/javascript" src="canvas-particle.js"></script>
 </body>
-<script>
-
-
-class Circle {
-    //创建对象
-    //以一个圆为对象
-    //设置随机的 x，y坐标，r半径，_mx，_my移动的距离
-    //this.r是创建圆的半径，参数越大半径越大
-    //this._mx,this._my是移动的距离，参数越大移动
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
-        this.r = Math.random() * 10 ;
-        this._mx = Math.random() ;
-        this._my = Math.random() ;
-
-    }
-
-    //canvas 画圆和画直线
-    //画圆就是正常的用canvas画一个圆
-    //画直线是两个圆连线，为了避免直线过多，给圆圈距离设置了一个值，距离很远的圆圈，就不做连线处理
-    drawCircle(ctx) {
-        ctx.beginPath();
-        //arc() 方法使用一个中心点和半径，为一个画布的当前子路径添加一条弧。
-        ctx.arc(this.x, this.y, this.r, 0, 360)
-        ctx.closePath();
-        ctx.fillStyle = 'rgba(204, 204, 204, 0.3)';
-        ctx.fill();
-    }
-
-    drawLine(ctx, _circle) {
-        let dx = this.x - _circle.x;
-        let dy = this.y - _circle.y;
-        let d = Math.sqrt(dx * dx + dy * dy)
-        if (d < 150) {
-            ctx.beginPath();
-            //开始一条路径，移动到位置 this.x,this.y。创建到达位置 _circle.x,_circle.y 的一条线：
-            ctx.moveTo(this.x, this.y);   //起始点
-            ctx.lineTo(_circle.x, _circle.y);   //终点
-            ctx.closePath();
-            ctx.strokeStyle = 'rgba(204, 204, 204, 0.3)';
-            ctx.stroke();
-        }
-    }
-
-    // 圆圈移动
-    // 圆圈移动的距离必须在屏幕范围内
-    move(w, h) {
-        this._mx = (this.x < w && this.x > 0) ? this._mx : (-this._mx);
-        this._my = (this.y < h && this.y > 0) ? this._my : (-this._my);
-        this.x += this._mx / 2;
-        this.y += this._my / 2;
-    }
-}
-//鼠标点画圆闪烁变动
-class currentCirle extends Circle {
-    constructor(x, y) {
-        super(x, y)
-    }
-
-    drawCircle(ctx) {
-        ctx.beginPath();
-        //注释内容为鼠标焦点的地方圆圈半径变化
-        //this.r = (this.r < 14 && this.r > 1) ? this.r + (Math.random() * 2 - 1) : 2;
-        this.r = 8;
-        ctx.arc(this.x, this.y, this.r, 0, 360);
-        ctx.closePath();
-        //ctx.fillStyle = 'rgba(0,0,0,' + (parseInt(Math.random() * 100) / 100) + ')'
-        ctx.fillStyle = 'rgba(255, 77, 54, 0.6)'
-        ctx.fill();
-
-    }
-}
-//更新页面用requestAnimationFrame替代setTimeout
-window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-
-let canvas = document.getElementById('canvas');
-let ctx = canvas.getContext('2d');
-let w = canvas.width = canvas.offsetWidth;
-let h = canvas.height = canvas.offsetHeight;
-let circles = [];
-let current_circle = new currentCirle(0, 0)
-
-let draw = function () {
-    ctx.clearRect(0, 0, w, h);
-    for (let i = 0; i < circles.length; i++) {
-        circles[i].move(w, h);
-        circles[i].drawCircle(ctx);
-        for (j = i + 1; j < circles.length; j++) {
-            circles[i].drawLine(ctx, circles[j])
-        }
-    }
-    if (current_circle.x) {
-        current_circle.drawCircle(ctx);
-        for (var k = 1; k < circles.length; k++) {
-            current_circle.drawLine(ctx, circles[k])
-        }
-    }
-    requestAnimationFrame(draw)
-}
-
-let init = function (num) {
-    for (var i = 0; i < num; i++) {
-        circles.push(new Circle(Math.random() * w, Math.random() * h));
-    }
-    draw();
-}
-window.addEventListener('load', init(40));
-window.onmousemove = function (e) {
-    e = e || window.event;
-    current_circle.x = e.clientX;
-    current_circle.y = e.clientY+document.body.scrollTop;;
-}
-document.body.onmousewheel = function(e) {
-
-         e = e || window.event;
-    current_circle.x = e.clientX;
-    current_circle.y = e.clientY+document.body.scrollTop;
-};
-document.body.addEventListener("DOMMouseScroll", function(e) {
-    e = e || window.event;
-    current_circle.x = e.clientX;
-    current_circle.y = e.clientY+document.body.scrollTop;
-});
-window.onmouseout = function () {
-    current_circle.x = null;
-    current_circle.y = null;
-
-};
-</script>
 </html>
